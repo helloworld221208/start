@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isNumber(givenValue){
+            return typeof givenValue=='number'?true:false;
+
+        }
+        function sumoftwonumber(number1,number2){
+            console.log(result);
+            if(isNumber(number1)&&isNumber(number2)){
+                var result=number1+number2;
+            }
+            else{
+                return"INvailis";
+            }
+            return result;
+        }
+        console.log(sumoftwonumber(21,23))
+        
+    </script>
+    <!-- <script>
+        if(0){
+            console.log("This statement is executed if the condition is truth.ie the expression evaluation to true");
+        }
+        else{
+            console.log("This statement is executed if the condition is falsy.ie the expression evaluation to false");
+        }
+        if("willbeconvertedtotrue"){
+            console.log("Yes I am");
+        }
+        else{
+            console.log("No I am not");
+        }
+        let nickName;
+        if(nickName){
+            console.log("It is a good name");
+        }
+        else{
+            console.log("Please add your nick name");
+        }
+        function getRandomNum(){
+            var rn=Math.random()*10;
+            console.log("Random Number" + rn);
+            return rn;
+        }
+        function table(num1 ,num2){
+            for(let i=1;i<=num2;i++){
+                console.log(`${i} * ${num1} =${num1*i}`)
+            }
+        }
+        function arithmeticOperator(num1,num2,operator){
+            let result;
+            switch (operator) {
+                case '+':
+                    result=num1+num2
+                    break; 
+                case '-':
+                    result=num1-num2
+                break; 
+                case '*':
+                    result=num1*num2
+                break; 
+                case '/':
+                    result=num1/num2
+                break; 
+                default:
+                    break;
+            }
+            return result;
+        }
+        function getRandomNum(upperBond) {
+            return Math.round(Math.random()*upperBond)
+        }
+        function getRGBColor(){
+           document.body.style.backgroundColor=(`rgb(${getRandomNum(255)},${getRandomNum(255)},${getRandomNum(255)})`)
+            
+        }
+        console.log( arithmeticOperator(10,5,'/'));
+        table(12,10);
+
+    </script> -->
+
+</body>
+
+</html>
